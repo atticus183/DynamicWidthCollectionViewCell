@@ -56,7 +56,6 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
         let sbTrailingConstraintValue: CGFloat = 8
         let extraPadding: CGFloat = 16
         
-        
         return CGSize(width: label.frame.width + sbLeadingConstraintValue + sbTrailingConstraintValue + extraPadding, height: 30)
         
     }
